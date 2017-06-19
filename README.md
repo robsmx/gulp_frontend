@@ -6,7 +6,7 @@ Gulp Starter kit (Browsersync, SASS, Uglify, CSSnano, Imagemin, Autoprefixer, Pu
 
 ```
 // Needs npm & gulp
-git clone git://github.com/robsmx/automated_frontend.git new_design
+git clone git://github.com/robsmx/gulp_frontend.git new_design
 cd new_design
 npm install
 gulp
