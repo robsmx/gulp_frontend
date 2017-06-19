@@ -1,0 +1,2 @@
+* Integrar módulos, copiar de source to dist.
+* Hacer módulo de sass.
