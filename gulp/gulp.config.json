@@ -2,7 +2,7 @@
     "distribution_folder": "./dist",
     "js": {
         "uglify": true,
-        "src": "./src/js/",
+        "src": "./src/assets/js/",
         "dest": "/js/"
     },
     "copy": {
@@ -10,17 +10,7 @@
     },
     "pug": {
         "src": "./src/pug/",
-        "dest": "",
-        "mainFile": "index.pug",
-        "data": {
-            "title": "Start Template",
-            "css_to_include": [
-                "/css/main.css"
-            ],
-            "js_to_include": [
-                "/js/main.js"
-            ]
-        }
+        "dest": ""
     },
     "sass": {
         "logError": true,
