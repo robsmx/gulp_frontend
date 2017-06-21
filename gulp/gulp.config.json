@@ -3,7 +3,7 @@
     "js": {
         "uglify": true,
         "src": "./src/assets/js/",
-        "dest": "/js/"
+        "dest": "/assets/js/"
     },
     "copy": {
         "src": "./src/assets/"
@@ -19,6 +19,6 @@
         "minify": true,
         "mainFile": "main",
         "src": "./src/sass/",
-        "dest": "/css/"
+        "dest": "/assets/css/"
     }
 }

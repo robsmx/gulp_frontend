@@ -8,5 +8,5 @@ var gulp = require('gulp'),
 gulp.task('copy', function () {
   return gulp.src(config.copy.src + "**/*")
     .pipe(gulpif('*{.jpg, .gif, .png}', cache(imagemin())))
-    .pipe(gulp.dest(config.distribution_folder));
+    .pipe(gulp.dest(config.distribution_folder + "/assets"));
 });
